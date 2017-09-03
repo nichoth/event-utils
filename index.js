@@ -36,8 +36,15 @@ Topic.prototype.close = function () {
     this.removeAllListeners()
 }
 
+function _topic (evs, bus) {
+    if (!bus) return function (_bus) {
+        return _topic(evs, _bus)
+    }
+    return Topic(evs, bus)
+}
+
 module.exports = {
-    Topic: Topic,
+    Topic: _topic,
     namespace: namespace
 }
 
