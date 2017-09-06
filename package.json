@@ -14,13 +14,13 @@
     "test": "tape test/*.js | tap-spec"
   },
   "dependencies": {
-    "inherits": "^2.0.3"
+    "inherits": "^2.0.3",
+    "nanobus": "^4.2.0"
   },
   "devDependencies": {
     "dependency-check": "^2.9.1",
     "eslint": "^4.6.1",
     "eslint-config-minlint": "^2.0.0",
-    "nanobus": "^4.2.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.8.0"
   },
