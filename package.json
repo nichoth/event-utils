@@ -1,6 +1,6 @@
 {
   "name": "@nichoth/event-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Event namespacing stuff",
   "main": "index.js",
   "directories": {
@@ -12,8 +12,7 @@
     "lint": "eslint .",
     "test": "tape test/*.js | tap-spec"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^4.6.1",
     "eslint-config-minlint": "^2.0.0",
