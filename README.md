@@ -9,7 +9,7 @@ Event namespacing and stuff
 ## example
 
 ```js
-var namespace = require('../')
+var namespace = require('@nichoth/event-utils')
 var test = require('tape')
 
 var input = {
