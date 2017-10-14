@@ -1,6 +1,6 @@
 {
   "name": "@nichoth/event-utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Event namespacing stuff",
   "main": "index.js",
   "directories": {
