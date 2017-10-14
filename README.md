@@ -2,6 +2,9 @@
 
 Event namespacing and stuff
 
+## install
+
+    $ npm install @nichoth/event-utils
 
 ## example
 
