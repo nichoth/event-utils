@@ -1,4 +1,5 @@
 var namespace = require('../')
+var flatten = namespace.flatten
 var test = require('tape')
 
 var input = {
@@ -36,5 +37,18 @@ var expected = {
 test('namespace', function (t) {
     t.plan(1)
     t.deepEqual(namespace(input), expected)
+})
+
+test('flatten', function (t) {
+    t.plan(1)
+    t.deepEqual(flatten(namespace(input)), [
+        'events.update.get',
+        'events.update.add',
+        'events.update.delete',
+        'events.update.edit',
+        'foo.bar.baz.a',
+        'foo.bar.baz.b',
+        'foo.bar.baz.c'
+    ])
 })
 
